@@ -1,4 +1,4 @@
-# React Shimmer Loader
+# React Shimmerify
 
 ## Overview
 
@@ -27,13 +27,27 @@ import { ShimmerLoader } from "react-shimmerify";
 
 const App = () => {
   return (
-    <ShimmerLoader>
-      <div>
-        <img src="" alt="Loading..." />
-        <h1>Loading Title</h1>
-        <p>Loading description</p>
-      </div>
-    </ShimmerLoader>
+      <ShimmerLoader
+          isLoading={true}
+          customDimensionsMap={{
+              span: { width: "75px", height: "10px", borderRadius: "2px" },
+          }}
+      >
+          <div className="content">
+              <img
+                  src=""
+                  alt="Loading..."
+                  width="100px"
+                  height="100px"
+                  aria-label="shimmer-image"
+              />
+              <div>
+                  <h1 aria-label="shimmer-title">Loading Title</h1>
+                  <p aria-label="shimmer-text">Loading description</p>
+                  <span aria-label="shimmer-span">Loading description</span>
+              </div>
+          </div>
+      </ShimmerLoader>
   );
 };
 
@@ -45,17 +59,6 @@ export default App;
 The component uses a configuration object to define shimmer styles:
 
 ```ts
-export const SHIMMER_ELEMENTS_CONFIG: ShimmerElementConfig[] = [
-  { tag: "img", skeletonType: "image" },
-  { tag: "p", skeletonType: "text" },
-  { tag: "h1", skeletonType: "text" },
-  { tag: "h2", skeletonType: "text" },
-  { tag: "h3", skeletonType: "text" },
-  { tag: "span", skeletonType: "text" },
-  { tag: "button", skeletonType: "button" },
-  { tag: "div", skeletonType: "container" }
-];
-
 export const SHIMMER_ELEMENTS_DIMENSIONS_MAP: ShimmerDimensionsMap = {
   p: { width: "200px", height: "20px", borderRadius: "2px" },
   h1: { width: "300px", height: "40px", borderRadius: "2px" },
@@ -64,28 +67,6 @@ export const SHIMMER_ELEMENTS_DIMENSIONS_MAP: ShimmerDimensionsMap = {
   span: { width: "150px", height: "15px", borderRadius: "2px" },
   img: { width: "100px", height: "100px" }
 };
-```
-
-## Styling
-
-The shimmer effect is achieved using CSS animations:
-
-```css
-.loader-item {
-  background: linear-gradient(90deg, #f9f9f9 0%, #ececec 50%, #f9f9f9 100%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite linear;
-  border-radius: 4px;
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
-}
 ```
 
 ## Contributions
