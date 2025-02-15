@@ -7873,9 +7873,9 @@ react-scripts@5.0.1:
     fsevents "^2.3.2"
 
 react-shimmerify@^0.0.2:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/react-shimmerify/-/react-shimmerify-0.0.1.tgz#679bcb12076534122044d3aa79e30e7e1182cef8"
-  integrity sha512-wV4JqbuhV8Uwg6uJYODeLRLEonHAcZ9N7F/M9VADYiX9kXwvBoyL/XXmUaUoJ1HXePVaY6bgMRzBzgqnSDEIHQ==
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-shimmerify/-/react-shimmerify-0.0.2.tgz#01f21228c69e938fffb4c5b2fb535a9cb3f0c3ea"
+  integrity sha512-aLLsHmQ1yQd32eM8cdVF65supe7LwtoDThYYxw2t8uNWLWr27Xl/ddTA06ihbu204b2fseRoVMbaIPQHONklNA==
 
 react@^19.0.0:
   version "19.0.0"

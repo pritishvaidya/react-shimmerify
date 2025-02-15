@@ -1,5 +1,5 @@
 import React from "react";
-import ShimmerLoader from "react-shimmerify";
+import { ShimmerLoader } from "react-shimmerify";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 
 const scope = { ShimmerLoader };
