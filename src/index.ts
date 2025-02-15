@@ -1,3 +1,3 @@
-import ShimmerLoader from "./ShimmerLoader"
+import ShimmerLoader from "./ShimmerLoader";
 
-export default { ShimmerLoader }
+export { ShimmerLoader };

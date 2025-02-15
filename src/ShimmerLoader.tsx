@@ -1,19 +1,14 @@
 import React from "react";
 import { createShimmerSkeletonStructure } from "./layout";
 import { ShimmerCustomStyles, ShimmerDimensionsMap } from "./types";
-import "./index.scss"
+import "./index.scss";
 
-const ShimmerLoader = ({
-  isLoading,
-  children,
-  customStyles = {},
-  customDimensionsMap,
-}: {
+const ShimmerLoader: React.FC<{
   isLoading: boolean;
   children: React.ReactNode;
   customDimensionsMap?: ShimmerDimensionsMap;
   customStyles?: ShimmerCustomStyles;
-}) => {
+}> = ({ isLoading, children, customStyles = {}, customDimensionsMap }) => {
   const shimmerStructure = createShimmerSkeletonStructure(
     children,
     customDimensionsMap,
