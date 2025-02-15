@@ -4,6 +4,10 @@
 
 This project is a customizable React shimmer loader that can be used to create skeleton loading screens for various elements. It automatically maps HTML elements to corresponding shimmer skeletons and ensures a smooth linear shimmer animation from left to right.
 
+
+https://github.com/user-attachments/assets/b409da0b-2400-45b0-8324-5313d2803820
+
+
 ## Features
 
 - Automatically generates shimmer skeletons based on child elements.
