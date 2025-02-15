@@ -13,8 +13,9 @@
     "@types/react-dom": "^19.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-live": "^4.1.8",
     "react-scripts": "5.0.1",
-    "react-shimmerify": "file:react-shimmerify-0.0.1.tgz",
+    "react-shimmerify": "^0.0.2",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
