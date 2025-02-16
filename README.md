@@ -1,4 +1,4 @@
-# React Shimmerify [[Live Demo]](https://react-shimmerify.netlify.app) 
+# React Shimmerify [[Live Demo]](https://react-shimmerify.netlify.app) [![codecov](https://codecov.io/gh/pritishvaidya/react-shimmerify/branch/master/graph/badge.svg?token=NFC4YGNEJX)](https://codecov.io/gh/pritishvaidya/react-shimmerify)
 
 ## Overview
 
