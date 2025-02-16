@@ -1,6 +1,6 @@
 {
   "name": "react-shimmerify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A customizable React shimmer loader with smooth animations, auto-generated skeletons, and deep nesting support.",
   "repository": "https://github.com/pritishvaidya/react-shimmerify.git",
   "author": "pritishvaidya <pritishvaidya.dev@gmail.com>",
