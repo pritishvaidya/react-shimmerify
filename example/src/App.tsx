@@ -1,21 +1,11 @@
 import React from "react";
 import { ShimmerLoader } from "react-shimmerify";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
+import "./App.css";
 
 const scope = { ShimmerLoader };
 
-const sample1 = `<ShimmerLoader isLoading={true}>
-  <div className="content">
-    <img src="" alt="Loading..." width="100px" height="100px" />
-    <div>
-      <p>Loading Title</p>
-      <p>Loading Title</p>
-      <span>Loading description</span>
-    </div>
-  </div>
-</ShimmerLoader>`;
-
-const sample2 = `<ShimmerLoader isLoading={true} customDimensionsMap={{ 
+const code = `<ShimmerLoader isLoading={true} customDimensionsMap={{ 
      span: { width: "75px", height: "10px", borderRadius: "2px" }
 }}>
   <div className="content">
@@ -38,19 +28,7 @@ const ContentExample = () => {
       </div>
 
       <div className="layout">
-        <LiveProvider code={sample1} scope={scope}>
-          <div className="editor">
-            <LiveEditor />
-          </div>
-          <div className="preview">
-            <LivePreview />
-            <LiveError />
-          </div>
-        </LiveProvider>
-      </div>
-
-      <div className="layout">
-        <LiveProvider code={sample2} scope={scope}>
+        <LiveProvider code={code} scope={scope}>
           <div className="editor">
             <LiveEditor />
           </div>

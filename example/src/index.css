@@ -12,19 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
 }
-
-.container {
-  height: 100%;
-}
-
-.title-container {
-  padding: 20px 20px 0 20px;
-}
-.title-container h1 {
-  font-size: 24px;
-  color: #333;
-}
-.title-container h3 {
-  font-size: 18px;
-  color: #666;
-}
