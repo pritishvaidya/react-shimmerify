@@ -1,4 +1,4 @@
-# React Shimmerify [[Live Demo]](https://react-shimmerify.netlify.app) [![codecov](https://codecov.io/gh/pritishvaidya/react-shimmerify/branch/master/graph/badge.svg?token=NFC4YGNEJX)](https://codecov.io/gh/pritishvaidya/react-shimmerify)
+# React Shimmerify [[Live Demo]](https://react-shimmerify.netlify.app) [![codecov](https://codecov.io/gh/pritishvaidya/react-shimmerify/branch/master/graph/badge.svg?token=NFC4YGNEJX)](https://codecov.io/gh/pritishvaidya/react-shimmerify) [![npm version](https://badge.fury.io/js/react-shimmerify.svg)](https://badge.fury.io/js/react-shimmerify) [![npm downloads](https://img.shields.io/npm/dt/react-shimmerify.svg)](https://npm-stat.com/charts.html?package=react-shimmerify) <a href="https://github.com/pritishvaidya/react-shimmerify/blob/master/README.md"><img src="https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg" alt="module formats: cjs, esm"></a>
 
 ## Overview
 
